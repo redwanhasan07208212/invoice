@@ -1,0 +1,171 @@
+/* Font Includede */
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-bg:rgb(185, 180, 180);
+    --white: #ffffff;
+    --darkwhite: rgb(219, 216, 216);
+    --black: #000000;
+    --dark: #5f5c5f;
+    --themeColor: #1cafc8;
+    --pageShadow: 0 0 0.5cm rgba(8, 8, 8, 0.5);
+}
+body{
+    background-color: rgb(185, 180, 180);
+}
+/* Header Section Start */
+.page{
+    background: #ffffff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 0.5cm rgba(8, 8, 8, 0.5);
+}
+.page[size="A4"] {
+    width: 21cm;
+    min-height: 29.7cm;
+    overflow:  hidden;
+}
+.bb{
+    border-bottom: 3px solid rgb(219, 216, 216);;
+}
+/* Top Section */
+.top-content{
+    padding-bottom: 15px;
+}
+.logo img{
+    height: 60px;
+}
+.top-left p{
+    margin: 0;
+}
+.top-left .graphic-path{
+    height: 40px;
+    position: relative;
+}
+.top-left .graphic-path ::before{
+    content: "";
+    height: 20px;
+    background-color: #5f5c5f;
+    position: absolute;
+    left: 15px;
+    right: 0;
+    top: -15px;
+    z-index: 2;
+}
+.top-left .graphic-path ::after{
+    content: "";
+    height: 22px;
+    width: 17px;
+    background:#000000;
+    position: absolute;
+    top: -13px;
+    left: 6px;
+    transform: rotate(45deg);
+}
+.top-left .graphic-path p{
+    color: #ffffff;
+    height: 40px;
+    left: 0;
+    right: -100px;
+    text-transform: uppercase;
+    background-color: salmon;
+    font-size: 26px;
+    z-index: 3;
+    position: absolute;
+    padding-left: 10px;
+}
+/* Header Section End */
+
+
+/* Store Section Start */
+.store-user{
+    padding-bottom: 25px;
+}
+.store-user p{
+    margin: 0;
+    font-weight: 600;
+}
+.store-user .address {
+    font-weight: 400;
+}
+.store-user h2{
+    color: salmon;
+    font-family: 'Cuprum', sans-serif;
+}
+.extra-info p span{
+    font-weight: 400;
+}
+/* Store Section End */
+
+/* Product Section Start */
+thead tr td{
+      font-weight: 800;
+      color: salmon
+}
+table td,table th{
+    text-align: center;
+    vertical-align: middle;
+}
+tr th:first-child,
+tr td:first-child{
+    text-align: left;
+}
+.media img{
+    height: 60px;
+    width: 60px;
+}
+.media p{
+    font-weight: 400;
+    margin: 0;
+}
+.media p .title{
+    font-weight: 6;
+}
+/* Product Section End */
+/* Balance Info Section Start */
+.balance-info .table-td,
+.balance-info .table-th{
+    padding: 0;
+    border: 0;
+}
+.balance-info tr td:first-child{
+    font-weight: 600;
+}
+tfoot{
+    border-top: 2px solid #5f5c5f;
+}
+tfoot td{
+    font-weight: 600;
+}
+/* Balance Info Section End */
+/* Footer Section */
+footer{
+    text-align: center;
+}
+footer hr{
+    margin-bottom: -20px;
+    border-top: 3px solid rgb(219, 216, 216);
+}
+footer a {
+    color: salmon;
+}
+footer p {
+    padding: 6px;
+    border: 3px solid rgb(219, 216, 216);
+    background-color: white;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
